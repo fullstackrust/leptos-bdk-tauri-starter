@@ -10,6 +10,13 @@ Anyone learning should follow the following guides and create something similar 
 - <https://tauri.app/v1/guides/>
   - <https://tauri.app/v1/guides/getting-started/setup/integrate>
 
+## Commands
+
+After configuring your environment with the above guides, use these commands with this project:
+
+- trunk dev: `trunk serve --port 3003 --open`
+- tauri dev: `cargo tauri dev`
+
 ## Exercise
 
 Load the mnemonic into BDK and check the balance of the wallet
