@@ -25,7 +25,7 @@ fn App() -> impl IntoView {
                     set_words(24);
                 }>"24 words"</button>
             </p>
-            <p>"Number of words: " {words()}</p>
+            <p>"Number of words: " {move || words()}</p>
         </div>
         <div>
             <p>
@@ -37,7 +37,7 @@ fn App() -> impl IntoView {
                     set_mnemonic(m.to_string());
                 }>"Generate mnemonic"</button>
             </p>
-            <p>"Mnemonic: " {mnemonic()}</p>
+            <p>"Mnemonic: " {move || mnemonic()}</p>
         </div>
     }
 }
