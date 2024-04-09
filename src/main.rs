@@ -1,4 +1,4 @@
-#![allow(non_snake_case)]
+#![allow(non_snake_case, clippy::redundant_closure)]
 use bip39::{Language, Mnemonic};
 use leptos::*;
 
